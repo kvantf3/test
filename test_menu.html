@@ -12,12 +12,12 @@
                 background-color:wheat;
                 border-radius:10%;
                 margin-top: 300px;
-                position: fixed;
+                position: absolute;
                 border:2px solid black;
                 z-index: 5;
                 width:55px;
                 height:55px;
-                margin: 5px;
+                
                 
             }
             
@@ -25,8 +25,8 @@
                 
                 background-color:wheat;
                 border-radius:10%;
-                margin-top: 355px;
-                position: fixed;
+                margin-top: 361px;
+                position: absolute;
                 border:2px solid black;
                 z-index: 5; 
                 width:55px;
@@ -37,14 +37,49 @@
                 
                 background-color:wheat;
                 border-radius:10%;
-                margin-top: 412px;
-                position: fixed;
+                margin-top: 422px;
+                position: absolute;
+                border:2px solid black;
+                z-index: 5;
+                width:55px;
+                height:55px;
+            }
+
+            #btn-foo {
+                
+                background-color:wheat;
+                border-radius:10%;
+                margin-top: 483px;
+                position: absolute;
                 border:2px solid black;
                 z-index: 5;
                 width:55px;
                 height:55px;
             }
             
+            #btn-five {
+                
+                background-color:wheat;
+                border-radius:10%;
+                margin-top: 545px;
+                position: absolute;
+                border:2px solid black;
+                z-index: 5;
+                width:55px;
+                height:55px;
+            }
+
+            #btn-six {
+                
+                background-color:wheat;
+                border-radius:10%;
+                margin-top: 607px;
+                position: absolute;
+                border:2px solid black;
+                z-index: 5;
+                width:55px;
+                height:55px;
+            }
             
             
 
@@ -77,13 +112,19 @@
                     
             }
             .hover:hover>* {
-                //background-color: aqua;
+                background-color: aqua;
                 display:block!important;
                 z-index:1;
                 color:red;
                 position:absolute;
                 
 
+            }
+
+            p1 {
+
+            	font-variant: small-caps;
+            	color: blue;
             }
             
         </style>
@@ -124,12 +165,38 @@
                     <img src="images/3.svg">
                 </a>
         </div>
-        
-        
-        // <div id="background_div"></div>
 
+         <div id="btn-foo" class="square linkblock" oneclick="location.href=https://google.com">
+                
+                
+                <a href="http://google.com">
+                    <img src="images/test.png">
+                </a>
+            </div>
+
+             <div id="btn-five" class="square linkblock" oneclick="location.href=https://google.com">
+                
+                
+                <a href="http://google.com">
+                    <img src="images/test.png">
+                </a>
+            </div>
+
+             <div id="btn-six" class="square linkblock" oneclick="location.href=https://google.com">
+                
+                
+                <a href="http://google.com">
+                    <img src="images/test.png">
+                </a>
+            </div>
+        
+        
+        // <div id="background_div">
+
+        	<p1>Образец текста капитель</p1>
+        	</div>
        
-    
+    	
     </body>
 
 </html>
