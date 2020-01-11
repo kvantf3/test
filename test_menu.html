@@ -1,0 +1,134 @@
+
+<html>
+
+    <head>
+        
+        <title>test_menu</title>
+    
+        <style type="text/css">
+        
+            #btn-one {
+                
+                background-color:wheat;
+                border-radius:10%;
+                margin-top: 300px;
+                position: fixed;
+                border:2px solid black;
+                z-index: 5;
+                width:55px;
+                height:55px;
+                
+            }
+            
+            #btn-two {
+                
+                background-color:wheat;
+                border-radius:10%;
+                margin-top: 355px;
+                position: fixed;
+                border:2px solid black;
+                z-index: 5; 
+                width:55px;
+                height:55px;
+            }
+            
+            #btn-three {
+                
+                background-color:wheat;
+                border-radius:10%;
+                margin-top: 412px;
+                position: fixed;
+                border:2px solid black;
+                z-index: 5;
+                width:55px;
+                height:55px;
+            }
+            
+            
+            
+
+                img {
+                  position:absolute;
+                  width: 40px;
+                  height: 40px;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+            }
+            
+            #background_div {
+                
+                background-color: gray;
+                width: 1000;
+                height: 3000;
+                opacity: 0.5;
+                z-index: 1;
+                
+            }
+            
+            #123 {
+                
+                width: 5000px;
+            }
+            
+            .linkblock {
+                cursor:pointer
+                    
+            }
+            .hover:hover>* {
+                //background-color: aqua;
+                display:block!important;
+                z-index:1;
+                color:red;
+                position:absolute;
+                
+
+            }
+            
+        </style>
+    
+    </head>
+
+    <body>
+        
+                
+            
+        
+            <div></div>
+        
+        
+            <div id="btn-one" class="square linkblock" oneclick="location.href=https://google.com">
+                
+                
+                <a href="http://google.com">
+                    <img src="images/test.png">
+                </a>
+            </div>
+
+            <div class="hover">
+               <element style="display: none">WOK</element>
+
+            </div>
+        
+        
+        <div id="btn-two" class="square linkblock" oneclick="location.href=https://google.com">
+                
+                <a href="http://google.com">
+                    <img src="images/2.svg"></a>
+        </div>
+        
+        <div id="btn-three" class="square linkblock" oneclick="location.href=https://google.com">
+                
+                <a href="http://google.com">
+                    <img src="images/3.svg">
+                </a>
+        </div>
+        
+        
+        // <div id="background_div"></div>
+
+       
+    
+    </body>
+
+</html>
